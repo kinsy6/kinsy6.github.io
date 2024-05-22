@@ -1,0 +1,1 @@
+# kinsy6.github.io
