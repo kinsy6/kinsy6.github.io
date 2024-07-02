@@ -1,0 +1,110 @@
+body {
+    /* Use flexbox layout for the body */
+    display: flex;
+    margin:auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf; 
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    /* Center the wrapper content horizontally */
+    margin: auto;
+    width: 81%;
+    background-color: lightcyan;
+   
+}
+
+nav {
+    /* Use flexbox layout for the nav and Center the nav content horizontally */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.story {
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+}
+
+a {
+    /* Remove underline from links and add padding to links */
+    text-decoration: none;
+    color: black;
+    padding: 150px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+}
+
+.header {
+    /* Position relative for positioning child elements */
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.lone-starfish {
+    /* Position absolute for positioning inside the header */
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    /* center the element */
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+article p {
+    /* add margin arround the paragraph */
+    margin: 15px;
+    margin-left: 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.content-starfish {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 250px;
+}
+
+form {
+    border: 1px black solid;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.contact {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type="text"] {
+    width: 99%;
+}
+
+.message {
+    height: 110px;
+}
+
+footer {
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+nav, ul, section, p, #story, #contact {
+    padding-left: 10px;
+}
