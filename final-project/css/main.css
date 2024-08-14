@@ -1,3 +1,4 @@
+/* settings of all the text part */
 h1 {
     font-size: 50px;
     font-weight: bolder;
@@ -27,15 +28,20 @@ p {
     margin: 10px;
 }
 
+
+/* copied a font from google font to set a specific font to the body */
 body {
     font-family: "Open Sans", sans-serif;
 }
 
+/* it sets a default with to the body section */
 .wrapper{
     max-width: 1200px;
     box-sizing: border-box;
 
 }
+
+/* here the background colour takes all the header and seperates it from other parts */
 
 header {
     background-color: #222;
@@ -54,6 +60,8 @@ ul li:nth-child(1) {
     background-color: #c78c06;
 }
 
+
+/* the hover is there so as to click on the button it changes color to black */
 .home:hover {
     color: black;
 }
@@ -104,6 +112,7 @@ nav>img {
     border-radius: 5px 0 0 5px;
 }
 
+
 .search-button {
     padding: 2px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -113,6 +122,8 @@ nav>img {
     margin-left: 1px;
     width: 80px;
 }
+
+/* it gives a background image layout with text on it */
 
 #home {
     background-image: url("../images/main-banner.jpg");
@@ -124,6 +135,8 @@ nav>img {
     margin-top: 0;
     align-content: center;
 }
+
+/* this gives a transparent background to the text and looks like a barner */
 
 #home > div {
     background-color: rgba(0, 0, 0, 0.5);
@@ -154,6 +167,8 @@ nav>img {
     width: 100%;
 }
 
+/* sets the button for the services part */
+
 .digital > .button, .marketing > .button, .video > .button, .web > .button, .print > .button {
     background-color: black;
     padding: 25px 32px;
@@ -163,6 +178,7 @@ nav>img {
     color: white;
 }
 
+/* this is to display the background of the diferent parts seperately */
 .digital, .marketing, .video, .web, .print, .john, .bob {
     background-color: #ffe6ac;
     width: calc(100% - 20px);
@@ -265,7 +281,7 @@ footer {
     }
 
     /* Aligns navigation links in a row with space around them for larger screens */
-    a .home:hover{
+    a {
         flex-direction: row;
         justify-content: space-around;
     }
