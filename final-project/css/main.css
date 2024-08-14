@@ -1,0 +1,407 @@
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h4 {
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 15px;
+    margin: 10px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.wrapper{
+    max-width: 1200px;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: #222;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+} 
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li:nth-child(1) {
+    background-color: #c78c06;
+}
+
+.home:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #c78c06;
+    margin: 10px;
+}
+
+li{
+    padding: 20px;
+
+}
+
+nav {
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+nav>img {
+    background-color: #c78c06;
+    padding-right: 80%;
+    display: block;
+    width: 20%;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 70px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.search-bar {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #c78c06;
+    color: #c78c06;
+    font-size: 32px;
+    margin-left: 1px;
+    width: 80px;
+}
+
+#home {
+    background-image: url("../images/main-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    margin-top: 0;
+    align-content: center;
+}
+
+#home > div {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70%;
+    padding: 10px;
+    padding-top: 50px;
+    align-content: center;
+}
+
+.button
+ {
+    background-color: #c78c06;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+}
+
+#aboutus {
+    background-color: #ffe6ac; 
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;  
+}
+
+#aboutus img{
+    width: 100%;
+}
+
+.digital > .button, .marketing > .button, .video > .button, .web > .button, .print > .button {
+    background-color: black;
+    padding: 25px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+.digital, .marketing, .video, .web, .print, .john, .bob {
+    background-color: #ffe6ac;
+    width: calc(100% - 20px);
+    margin: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.digital img, .marketing img, .video img, .web img, .print img, .john img, .bob img {
+    width: 100%;
+}
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.vision > .button {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px 32px;
+    text-decoration: none;
+    display: inline-block;
+    border: #c78c06, solid, 1px;
+    font-size: 16px;
+    color: white;
+}
+
+hr{
+    border-top: 2px solid orange;
+    margin: 10px;
+}
+
+form {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.contact {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type="text"] {
+    width: 99%;
+}
+
+.message {
+    height: 110px;
+}
+
+.send {
+    background-color: black;
+    color: #c78c06;
+    box-sizing: border-box;
+}
+
+.hours-table {
+    width: 100%;
+    border: 1px black solid;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.hours-table th, .hours-table td {
+    padding: 12px 15px;
+    border: 1px solid black;
+}
+
+.hours-table thead th {
+    background-color: #F7E0A5;
+    font-weight: bold;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: #c78c06;
+    padding: 10px;
+}
+
+@media screen and (min-width: 760px){
+
+    /* Adjusts the navigation bar to a horizontal layout for wider screens */
+    .big-nav{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        background-color: #222222;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Aligns navigation links in a row with space around them for larger screens */
+    a .home:hover{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    /* Styles the form within the navigation to align items in a row */
+    ul li a .home:hover form {
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    /* Sets the home section's background image and dimensions for larger screens */
+    #home{
+        background-image: url("../images/main-banner.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+        align-content: center;
+    }
+
+    /* Styles the div inside the home section for a centered and semi-transparent overlay */
+    #home > div{
+        background-color: rgba(2, 2, 2, 0.5);
+        width: 85%;
+        height: 70%;
+        margin: auto;
+        align-self: center;
+        padding-top: 30px;
+    
+    }
+
+     /* Applies a flexbox layout to the about section for better alignment and spacing */
+    #aboutus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    /* Adjusts the size of the image in the about section */
+    #aboutus img{
+       width: 400px; 
+       height: 240px;
+    }
+
+    /* Sets the width in the about section */
+    #about .about-us{
+        width: 500px;
+    }
+
+
+    /* Converts the services section into a grid layout for organizing service items */
+    #services{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-areas: "h3 h3 h3 . . ."
+                             "dig dig dig mar mar mar"
+                             "vid vid web web pri pri";
+        grid-gap: 0px 0px;
+        justify-content: space-between;
+    }
+
+    /* Centers the button within the services section and adjusts padding for alignment */
+    .digital > .button, .marketing > .button, .video > .button, .web > .button, .print > .button {
+        align-content: center;
+        justify-content: center;
+        padding-left: 150px;
+        padding-right: 120px;
+        margin: auto;
+        margin-left: 10px;
+    }
+
+     /* Specific button padding adjustments for the video service item */
+    .video > button{
+        padding-left: 144px;
+    }
+
+    /* Specific button padding adjustments for the digital service item */
+    .digital > button{
+        padding-left: 230px;
+        padding-right: 229px;
+    }
+
+    /* Specific button padding adjustments for the marketing service item */
+    .marketing > button{
+        padding-left: 230px;
+        padding-right: 220px;
+    }
+    
+
+    /* Styles the vision section to have a centered background and fixed height */
+    .vision{
+        height:250px;
+        align-content: center;
+        background-size: cover;
+        background-position: center;
+    }
+
+     /* Sets a grid layout for the john team member section */
+    .john{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: "ji jd";
+
+    }
+    
+     /* Sets a grid layout for the BoB team member section */
+    .bob{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: "bd bi";
+    } 
+
+    /* Applies a columnar flex layout to the team section for organizing team members */
+    #team{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    /* Sets a grid layout for the corner section to organize its content */
+    .corner{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-areas: "ct ct . ."
+                             "Sen Sen loc loc"
+                             "tab tab tab tab"
+    }
+    
+    
+
+}
